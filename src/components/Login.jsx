@@ -10,6 +10,7 @@ const Login = () => {
     navigate('/upload');
   };
 
+  
   const onFinishFailed = (errorInfo) => {
     console.log('Failed:', errorInfo);
   };
